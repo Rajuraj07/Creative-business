@@ -1,0 +1,43 @@
+// About us Area
+.about-us-area {
+    .bg-image {
+        padding-top: 120px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right;
+        min-height: 450px;
+        width: 700px;
+    }
+}
+
+.about-content-area {
+    .section-title {
+        .title {
+            font-size: 48px;
+            line-height: 58px;
+            font-weight: 600;
+            color: #233d62;
+            margin-bottom: 40px;
+        }
+        span {
+            font-size: 20px;
+            line-height: 30px;
+            color: #fe6347;
+            font-weight: 700;
+        }
+        p {
+            font-size: 18px;
+            line-height: 28px;
+            color: #233d62;
+            margin-bottom: 30px;
+            max-width: 500px;
+            hyphens: initial;
+        }
+    }
+    .btn-wrapper {
+        span {
+            font-size: 16px;
+            line-height: 26px;
+        }
+    }
+}

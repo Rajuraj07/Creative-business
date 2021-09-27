@@ -1,0 +1,326 @@
+/* Medium Layout: 1200px. */
+
+@media only screen and (min-width: 1200px) and (max-width: 1366px) {
+    .header-area.header-gym {
+        padding: 250px 0 230px;
+    }
+    .header-area.header-bg {
+        background-position: center top;
+    }
+    .header-area.header-gym .header-inner .title {
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .header-area.header-gym .gym-bg-img {
+        width: 650px;
+        right: 2%;
+        top: 30%;
+    }
+    .header-area.header-gym .header-inner p {
+        line-height: 38px;
+    }
+    .build-area {
+        margin-top: 0;
+    }
+    .build-area .section-title .title,
+    .about-content-area .section-title .title,
+    .build-area .section-title .title,.footer-top .section-title .title
+     {
+        font-size: 46px;
+        line-height: 66px;
+    }
+    .about-us-area .bg-image {
+        width: 580px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .header-area.header-gym {
+        padding: 250px 0 165px;
+    }
+    .header-area.header-bg {
+        background-position: center top;
+    }
+    .header-area.header-gym .header-inner .title {
+        font-size: 56px;
+        line-height: 66px;
+    }
+    .header-area.header-gym .gym-bg-img {
+        width: 510px;
+        right: 2%;
+        top: 35%;
+    }
+    .header-area.header-gym .header-inner p {
+        line-height: 35px;
+    }
+    .build-area {
+        margin-top: 0;
+    }
+    .build-area .section-title .title,
+    .about-content-area .section-title .title,
+    .build-area .section-title .title,.footer-top .section-title .title
+     {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .about-us-area .bg-image {
+        width: 580px;
+    }
+    .build-area .section-title p, .about-content-area .section-title p,
+    .copyright-area-inner {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .about-content-area .section-title span {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .single-service-item .content .title {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .about-content-area .section-title .title {
+        margin-bottom: 25px;
+    }
+    .about-content-area .section-title p {
+        margin-bottom: 20px;
+    }
+    .contact-area .bg-image-02 {
+        height: 350px;
+    }
+}
+
+
+
+/* Tablet Layout: 991px. */
+
+@media only screen and (max-width: 991px) {
+    .header-area.header-bg {
+        background-position: center top;
+        background-size: cover;
+    }
+    .header-area.header-gym .gym-bg-img {
+        display: none;
+    }
+    .header-area.header-gym {
+        padding: 250px 0 110px;
+    }
+    .build-area {
+        margin-top: 0;
+    }
+    .header-area.header-gym .header-inner p {
+        line-height: 30px;
+    }
+    .header-area.header-gym .header-inner .title {
+        font-size: 56px;
+        line-height: 66px;
+    }
+    .build-area .section-title .title,
+    .about-content-area .section-title .title,
+    .build-area .section-title .title,.footer-top .section-title .title
+     {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .build-area .section-title p, .about-content-area .section-title p,
+    .copyright-area-inner {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .about-content-area .section-title span {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .single-service-item .content .title {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .about-us-area .bg-image {
+        margin-top: 60px;
+    }
+    .footer-bottom-border > .style-01 {
+        justify-content: center;
+    }
+    .footer-logo {
+        display: flex;
+        justify-content: center;
+    }
+    .navbar-area.nav-style-02 .nav-container .logo-wrapper {
+        max-width: 70px;
+    }
+    .latest-work-area #portfolio-flters li {
+        font-size: 18px;
+    }
+    .about-content-area .section-title p {
+        max-width: initial;
+    }
+}
+
+/* Tablet Layout wide: 768px. */
+
+@media only screen and (max-width: 767px) {
+    .header-area.header-gym .header-inner .title {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .build-area .section-title .title,
+    .about-content-area .section-title .title,
+    .build-area .section-title .title,.footer-top .section-title .title,
+    .section-title .title{
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .about-content-area .section-title span {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .about-us-area .bg-image {
+        width: 530px;
+    }
+    .latest-work-area #portfolio-flters li {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .widget.footer-widget .subscribe-form .form-group .form-control {
+        width: 500px;
+    }
+    .widget.footer-widget .subscribe-form {
+        margin-left: 0;
+    }
+    .widget ul li {
+        margin-right: 23px;
+    }
+}
+
+
+/* medium tablet layout 599px */
+
+@media only screen and (max-width: 599px) {
+    
+}
+
+@media only screen and (max-width: 450px) {
+    .header-area.header-gym .header-inner .title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .header-area.header-gym .header-inner p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .btn-wrapper .boxed-btn.btn-saas.style-01 {
+        padding: 12px 40px;
+    }
+    .btn-wrapper .video-play {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .about-us-area .bg-image {
+        width: 390px;
+        min-height: 250px;
+    }
+    .about-content-area .section-title .title {
+        margin-bottom: 25px;
+    }
+    .about-content-area .section-title p {
+        margin-bottom: 20px;
+    }
+    .contact-area .bg-image-02 {
+        height: 275px;
+    }
+    .widget.footer-widget .subscribe-form .form-group .form-control {
+        width: 390px;
+    }
+    .widget.footer-widget .subscribe-form .form-group .form-control {
+        font-size: 16px;
+    }
+    .navbar-area.nav-style-02 .nav-container .logo-wrapper {
+        max-width: 65px;
+    }
+}
+
+
+/* mobile tablet layout 414px */
+
+@media only screen and (max-width: 414px) {
+    .header-area.header-gym .header-inner .title {
+        font-size: 38px;
+        line-height: 48px;
+    }
+    .about-content-area .btn-wrapper span {
+        display: none;
+    }
+    .btn-wrapper .video-play::after {
+        left: 29%;
+        top: -121%;
+    }
+    .about-us-area .bg-image {
+        width: 360px;
+    }
+    .latest-work-area #portfolio-flters li {
+        margin-right: 20px;
+    }
+    .build-area .section-title .title,
+    .about-content-area .section-title .title,
+    .build-area .section-title .title,.footer-top .section-title .title,
+    .section-title .title{
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .single-service-item .content .title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .single-service-item .content p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .widget.footer-widget .subscribe-form .form-group .form-control {
+        width: 360px;
+    }
+    .btn-wrapper .boxed-btn.btn-saas.footer-btn {
+        right: 35%;
+        top: 130%;
+    }
+    .widget ul {
+        display: inherit;
+    }
+}
+
+
+/* mobile tablet layout 375px */
+
+@media only screen and (max-width: 384px) {
+
+}
+
+
+/* mobile tablet layout 360px */
+
+@media only screen and (max-width: 360px) {
+    .header-area.header-gym .header-inner .title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .about-content-area .section-title p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .about-us-area .bg-image {
+        width: 335px;
+    }
+    .widget.footer-widget .subscribe-form .form-group .form-control {
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 340px) {}
+
+
+/* mobile tablet layout 320px */
+
+@media only screen and (max-width: 330px) {}

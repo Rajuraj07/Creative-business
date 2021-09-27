@@ -1,0 +1,77 @@
+/*--------------------------------------------------------------
+	## WIdgets
+--------------------------------------------------------------*/
+
+.widget {
+    margin-bottom: 30px;
+}
+
+.widget.footer-widget .subscribe-form {
+    display: flex;
+    margin-left: 50px;
+    position: relative;
+    .form-group {
+        display: flex;
+        margin-bottom: 0;
+        .form-control {
+            width: 675px;
+            height: 80px;
+            border-radius: 50px;
+            background-color: $white;
+            color: #5f5f5f;
+            font-size: 18px;
+            padding: 0 0 0 30px;
+            @include placeholder-color(rgba(#5f5f5f, 0.6));
+        }
+    }
+}
+
+.widget.footer-widget {
+    background-color: transparent;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.widget ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.widget ul li {
+    display: block;
+    margin: 8px 0;
+    -ms-word-wrap: break-word;
+    word-break: break-word;
+    font-size: 16px;
+    line-height: 26px;
+    margin-right: 40px;
+    display: inline-block;
+}
+
+.widget ul li a {
+    color: inherit;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+.widget ul li a:hover {
+    color: #fe6347;
+}
+
+.widget.widget_subscribe {
+    padding: 45px 40px;
+    border-radius: 20px;
+}
+
+.footer-widget.widget.widget_logo {
+    .footer-logo {
+        img {
+            width: 60px;
+        }
+    }
+}

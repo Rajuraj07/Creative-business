@@ -1,0 +1,24 @@
+// Latest Work Section
+.latest-work-area {
+	#portfolio-flters {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 50px;
+		li {
+			color: #233d62;
+    		list-style: none;
+    		font-size: 20px;
+    		font-weight: 600;
+    		cursor: pointer;
+    		transition: .5s all ease;
+    		margin-right: 40px;
+    		&:hover {
+    			color: #fe6347;
+    		}
+		}
+		.filter-active {
+			color: #fe6347;
+		}
+	}
+
+}

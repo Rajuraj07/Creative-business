@@ -1,0 +1,123 @@
+/*---------------------------------------
+    ## Button
+---------------------------------------*/
+
+.btn-wrapper {
+    display: block;
+    .boxed-btn {
+        background-color: var(--secondary-color);
+        color: #fff;
+        display: inline-block;
+        padding: 12px 40px;
+        border-radius: 50px;
+        text-transform: capitalize;
+        text-align: center;
+        cursor: pointer;
+        @include transition($transition);
+        font-weight: 600;
+        &.white {
+            &:hover {
+                background-color: $white;
+                color: var(--main-color-one);
+            }
+        }
+        &.btn-saas {
+            background-color: #fe6347;
+            &:hover {
+                background-color: #fd6975;
+            }
+            &.footer-btn {
+                position: absolute;
+                right: 20px;
+                top: 19px;
+            }
+            &.style-01 {
+                border: 1px solid #fe6347;
+                padding: 18px 45px;
+            }
+        }
+        &:hover {
+            background-color: var(--secondary-color);
+        }
+    }
+    .video-play {
+        color: #233d62;
+        font-size: 16px;
+        font-weight: 600;
+        position: relative;
+        z-index: 1;
+        &:after {
+            content: '';
+            position: absolute;
+            left: 13%;
+            top: -100%;
+            z-index: -1;
+            width: 70px;
+            height: 70px;
+            line-height: 70px;
+            background: #233d62;
+            border-radius: 50%;
+            animation: pulse-video 1500ms ease-out infinite;
+        }
+        i {
+            background: #233d62;
+            height: 50px;
+            width: 50px;
+            line-height: 50px;
+            border-radius: 50%;
+            text-align: center;
+            color: $white;
+            margin-left: 40px;
+            margin-right: 10px;
+        }
+    }
+}
+
+@keyframes pulse-video {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+
+
+.desktop-center {
+    text-align: center;
+}
+
+.desktop-left {
+    text-align: left;
+}
+
+.desktop-right {
+    text-align: right;
+}
+
+@media only screen and (max-width: 768px) {
+    .tablet-center {
+        text-align: center;
+    }
+    .tablet-left {
+        text-align: left;
+    }
+    .tablet-right {
+        text-align: right;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .mobile-center {
+        text-align: center;
+    }
+    .mobile-left {
+        text-align: left;
+    }
+    .mobile-right {
+        text-align: right;
+    }
+}
+

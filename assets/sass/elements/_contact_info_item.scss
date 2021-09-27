@@ -1,0 +1,79 @@
+/*-------------------------
+    Contact Info Item
+-------------------------*/
+
+.contact-area {
+    position: relative;
+    z-index: 0;
+    .bg-image-02 {
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 400px;
+        margin-bottom: 60px;
+    }
+}
+.contact-page-form {
+    .form-group {
+        label {
+            color: #000629;
+            font-size: 14px;
+            font-weight: 600;
+            span {
+                color: #ff6661;
+            }
+        }
+        textarea {
+            max-height: 160px;
+            resize: none;
+            width: 100%;
+            border-radius: 20px;
+            background-color: $white;
+            border: 1px solid #ebebeb;
+            padding: 20px 10px;
+            &::placeholder {
+                color: #b4b4b4;
+            }
+        }
+        .form-control {
+            border-radius: 20px;
+            color: var(--heading-color);
+            background-clip: border-box;
+            background-color: $white;
+            padding: 20px 10px;
+            margin-bottom: 25px;
+            &::placeholder {
+                color: #b3b3b3;
+                font-size: 14px;
+            }
+        }
+        .submit-btn {
+            background-image: linear-gradient( 50deg, rgb(94, 44, 237) 0%, rgb(151, 73, 248) 100%);
+            color: #fff;
+            display: inline-block;
+            border: none;
+            padding: 12px 40px;
+            text-transform: capitalize;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease-in;
+            font-weight: 600;
+            &:hover {
+                background-image: linear-gradient( 50deg, rgb(151, 73, 248) 0%, rgb(94, 44, 237) 100%);
+            }
+            &.style-01 {
+                background-image: initial;
+                border-radius: 50px;
+                background-color: #ff6661;
+                &:hover {
+                    background-color: #fd2b6b;
+                }
+            }
+        }
+    }
+    .btn-wrapper {
+        .boxed-btn {
+            border: none;
+        }
+    }
+}

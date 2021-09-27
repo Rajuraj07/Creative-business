@@ -1,0 +1,23 @@
+// build-area
+.build-area {
+    padding-top: 60px;
+    .section-title {
+        span {
+            font-size: 15px;
+            line-height: 25px;
+            color: #727b99;
+            font-weight: 500;
+        }
+        .title {
+            font-size: 48px;
+            line-height: 58px;
+            color: #233d62;
+        }
+        p {
+            font-size: 18px;
+            line-height: 28px;
+            color: #a6b0c1;
+            font-weight: 500;
+        }
+    }
+}

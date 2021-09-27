@@ -1,0 +1,63 @@
+/*--------------------------------------------------------------
+	## Header
+--------------------------------------------------------------*/
+.header-area {
+    padding: 290px 0 225px;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    &.header-gym {
+        background-color: transparent;
+        padding: 250px 0 290px;
+        .header-inner {
+            .title {
+                font-size: 65px;
+                line-height: 75px;
+                font-weight: 700;
+                color: #233d62;
+                max-width: 560px;
+            }
+            p {
+                max-width: 470px;
+                color: #727b99;
+                font-size: 18px;
+                line-height: 50px;
+            }
+        }
+        .gym-bg-img {
+            height: 850px;
+            width: 800px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            right: 10%;
+            top: 27%;
+            z-index: -1;
+        }
+    }
+    .subtitle {
+        position: relative;
+        z-index: 0;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: rgba($white, 0.7);
+        padding-left: 70px;
+        letter-spacing: 1px;
+        &:after {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 10px;
+            width: 60px;
+            height: 2px;
+            background-color: var(--main-color-one);
+        }
+    }
+    &.header-bg {
+        background-position: center left;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}

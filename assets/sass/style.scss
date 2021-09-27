@@ -1,0 +1,103 @@
+/*
+Theme Name: Bausins
+Theme URI: 
+Author: 
+Author URI: 
+Description: Bausins is a business website template
+Version: 1.0.0
+*/
+
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+
+# Typography
+# Normalize
+# Accessibility
+# Globals
+# Alignments
+# Clearings
+# Posts and pages
+# Captions
+# Galleries
+# Unit test
+# guterberg
+# Gutenberg	Default Style
+# Block Color Palette Colors
+# Sections
+    ## Breadcrumb
+    ## Comments
+    ## Widgets
+    ## Nav Bar
+    ## Info Bar
+    ## Header
+    ## Header Bottom Area
+    ## Footer Area
+    ## Error 404 Area
+    ## Why us Area
+    ## Highly Skilled Area
+    ## Call TO Action Area
+    ## Testimonial Area
+    ## Top Lawyer Style 02
+    ## Counterup Area
+    ## Case Category Area
+    ## Legal Support Area
+    ## Practice Details Area
+    ## Attorney Details Area
+
+# Elements
+    ## Back Top
+    ## Preloader
+    ## Video Popup
+    ## Button
+    ## Blog
+    ## Accordion
+    ## contact Info Item
+    ## Quote block with sign
+    ## Counterup Item
+    ## Video With Image
+    ## Video Play Button
+    ## Why Us Item
+    ## Section Title
+    ## What we cover item
+    ## Icon Box Item
+    ## Testimonial Item
+    ## Case Categories Item
+    ## Quote With Image
+    ## Price Plan Item
+
+--------------------------------------------------------------*/
+
+//== Global Design
+@import "global/_mixins";
+@import "global/_variables";
+@import "global/_global";
+//== Pages
+//== Sections
+@import "sections/_about_us_area.scss";
+@import "sections/_latest_work_section.scss";
+@import "sections/_build_area.scss";
+@import "sections/_contact_area.scss";
+@import "sections/_footer.scss";
+@import "sections/_header.scss";
+@import "sections/_widgets.scss";
+@import "sections/_navbar.scss";
+//== Elements
+@import "elements/_back_top";
+@import "elements/_preloader";
+@import "elements/_button";
+@import "elements/_contact_info_item";
+@import "elements/_section_title";
+@import "elements/_single_service_item";
+
+
+
+
+
+
+
+
+
+
+

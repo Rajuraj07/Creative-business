@@ -1,0 +1,78 @@
+/*-------------------------
+    Footer Area
+-------------------------*/
+
+.footer-top {
+    position: relative;
+    z-index: 0;
+    background-color: #24285b;
+    border-bottom: 2px solid #808080;
+    border-radius: 95px 95px 0 0;
+    .section-title {
+        .title {
+            font-size: 48px;
+            line-height: 58px;
+            color: $white;
+        }
+    }
+}
+
+.copyright-area {
+    background-color: #e9eff0;
+    &.style-01 {
+        background-color: $white;
+    }
+    &.style-02 {
+        background-color: #292554;
+    }
+    &.style-03 {
+        background-color: #fafafa;
+    }
+    &.style-04{
+        background-color: #04000f;
+    }
+    .copyright-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.copyright-area-inner {
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 20px;
+}
+
+.food-section {
+    .title {
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 90px;
+        color: $white;
+        margin-bottom: 20px;
+    }
+    .apps-download {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        .download-img {
+            margin: 0 10px;
+        }
+    }
+}
+
+.food-widget {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    ul {
+        li {
+            display: inline-block;
+            +li {
+                margin-left: 30px;
+            }
+        }
+    }
+}
